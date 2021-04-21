@@ -9,10 +9,10 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
-import { Member } from './member';
+import { Token } from './token';
 
 
-export interface MemberList { 
-    members?: Array<Member>;
+export interface DeleteTokenResponse { 
+    token?: Token;
 }
 

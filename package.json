@@ -1,6 +1,6 @@
 {
   "name": "@lab5e/ng-userapi",
-  "version": "1.3.10",
+  "version": "1.3.11",
   "description": "OpenAPI client for @lab5e/ng-userapi",
   "author": "OpenAPI-Generator Contributors",
   "keywords": [

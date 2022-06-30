@@ -11,9 +11,9 @@
  */
 
 
-export interface AcceptInviteRequest { 
+export interface RequestInviteDetails { 
     /**
-     * The invite code to use.
+     * The invite code.
      */
     code?: string;
 }

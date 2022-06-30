@@ -11,7 +11,7 @@
  */
 
 
-export interface Token { 
+export interface AnAPIToken { 
     /**
      * The resource of the token.  The token applies to the specified resource and any resources below this so the resource `/` applies to the root resource and any resource below the root resource. In the same manner `/collections` will apply to all collectins while `/collections/{id}` will apply to that particular collection.
      */
@@ -20,10 +20,6 @@ export interface Token {
      * Write flag for token.  If this is set to `true` the token can be used for write operations in the API such as POST, DELETE and PATCH.
      */
     write?: boolean;
-    /**
-     * Use this in the `X-API-Token` header when using the API.
-     */
-    token?: string;
     /**
      * Tags for the token.
      */

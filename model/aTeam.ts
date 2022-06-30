@@ -9,12 +9,12 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import { Member } from './member';
 
 
-export interface AcceptInviteRequest { 
-    /**
-     * The invite code to use.
-     */
-    code?: string;
+export interface ATeam { 
+    isPrivate?: boolean;
+    tags?: { [key: string]: string; };
+    members?: Array<Member>;
 }
 
